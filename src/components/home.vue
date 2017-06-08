@@ -10,6 +10,7 @@
 import carousel from './carousel'
 import cakeType from './cakeType'
 import cardCake from './cardCake'
+
 export default {
   name: 'home',
   data () {

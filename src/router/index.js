@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import home from '@/components/home'
-import typeCake from '@/components/cakeType'
+import Cakes from '@/components/cakes'
+import About from '@/components/aboutUs'
 
 Vue.use(Router)
 
@@ -23,9 +24,14 @@ export default new Router({
       component: home
     },
     {
-      path: '/carousel',
-      name: 'carousel',
-      component: typeCake
+      path: '/cakes',
+      name: 'cakes',
+      component: Cakes
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About
     }
   ]
 })

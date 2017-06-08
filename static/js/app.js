@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
   // $('.carousel').backstretch('images/cake1.jpg')
   $('.carousel').slick({
     dots: true,

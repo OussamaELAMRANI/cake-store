@@ -1,16 +1,21 @@
 <template>
   <ul class="navbar">
-        <li><a class="active" href="#home"><i class="fa fa-birthday-cake" aria-hidden="true"></i>Home</a></li>
-        <li><a href="#contact"><i class="fa fa-list" aria-hidden="true"></i>cakes</a></li>
+        <li><a href="/home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+        <li><a href="/#cakes"><i class="fa fa-birthday-cake" aria-hidden="true"></i>cakes</a></li>
         <li><a href="#news"><i class="fa fa-th-large" aria-hidden="true"></i>categories</a></li>
-        <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact us</a></li>
+        <li><a href="#about"><i class="fa fa-info" aria-hidden="true"></i>A propos</a></li>
         <li style="float:right"><a href="#about"><i class="fa fa-user" aria-hidden="true"></i> log In</a></li>
     </ul>
 </template>
 
 <script>
 export default {
-  name: 'navbar'
+  name: 'navbar',
+  data () {
+    return {
+      page: true
+    }
+  }
 }
 </script>
 

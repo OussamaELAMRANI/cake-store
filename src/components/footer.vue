@@ -2,11 +2,10 @@
 <footer class="modal-footer">
 
     <div class="part-logo col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <img src="" alt="logo" style="height: 100px; width: auto;">
+        <img src="../assets/LOGO.png" alt="logo" style="height: 100px; width: auto;">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Adipisci alias architecto eaque maxime optio sint, velit?
-            Dolores porro repellendus tempora.
+            Haninie est une entreprise marocaine dans le fabrication des gateaux et de goufrtte
+            ...
         </p>
     </div>
     <div class="quick-lien col-xs-12 col-sm-12 col-md-4 col-lg-4">

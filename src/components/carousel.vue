@@ -7,33 +7,40 @@
   </div>
   </div>
   <div class="zigzag"></div>
+
 </div>
 </template>
 
 
 <script>
+
   export default {
     name: 'carousel',
     data () {
       return {
         infos: [
-          {
-            url: 'static/images/carousel/cake1.jpg',
+           {
+            url: 'static/images/carousel/keoo.jpg',
             titre: 'Les gareaux number one ',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, illo'
           },
           {
-            url: 'static/images/carousel/cake2.jpg',
+            url: 'static/images/carousel/ZZZZ.jpg',
             titre: 'Les gareaux number one ',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, illo'
           },
           {
-            url: 'static/images/carousel/cake3.jpg',
+            url: 'static/images/carousel/kh.jpg',
             titre: 'Les gareaux number one ',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, illo'
           },
           {
-            url: 'static/images/carousel/cake4.jpg',
+            url: 'static/images/carousel/zwina.jpg',
+            titre: 'Les gareaux number one ',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, illo'
+          },
+          {
+            url: 'static/images/carousel/marchela.jpg',
             titre: 'Les gareaux number one ',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, illo'
           }
@@ -48,10 +55,10 @@
 .carousel{
   // width:99% !important;
   .carousel-img {
-      height: 500px;
+      height: 600px;
       background: linear-gradient( to bottom,rgba(0,0,0,.4),rgba(0,0,0,.9));
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: top bottom;
       background-size: cover;
       h1{
         font-family: 'Dancing Script', cursive;
